@@ -24,3 +24,6 @@
 p {color: blue;}
 ```
 - selector {color: value}
+- Demo Recap
+    - selector -> syntax
+    - id - only one
