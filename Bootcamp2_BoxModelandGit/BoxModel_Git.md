@@ -1,4 +1,4 @@
-## Bootcamp #1: Box Model and Git
+## Bootcamp #2: Box Model and Git
 
 ### Box Model
 - Every block level HTML has 4 layers
