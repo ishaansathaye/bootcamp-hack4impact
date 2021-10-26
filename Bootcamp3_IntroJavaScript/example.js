@@ -3,5 +3,5 @@ prices.map(x => x*0.8 == x < 10)
 console.log(prices)
 
 return prices
-    .map(price => price < 10 ? price*0.8 == price)
-    .filter(price => price >= 2);
+    // map(price => price < 10 ? price*0.8 == price);
+    filter(price => price >= 2);

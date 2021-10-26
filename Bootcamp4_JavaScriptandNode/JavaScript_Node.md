@@ -25,7 +25,7 @@ myButton.addEventListener('click', (event))
 - You can get or set the text in a DOM element using the textContent field
 - Can add or remove elements from t he DOM using ```createElement(), appendChild(), and removeChild()```
 ### Changing Styling
-- Similar to changing content with textContent, you can change css wit hthe style attribute
+- Similar to changing content with textContent, you can change css with the style attribute
 ### Getting User Input
 - Accept input from the users using the ```<input> and <textarea>``` tags
 - Can change how the input tag looks using the type attribute and setting it to different options such as date, number, or checkbox
