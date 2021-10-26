@@ -7,7 +7,7 @@
 - To connect your JS to HTML include the following in the head of HTML: ```<script type="text/javascript" src=<filename>></script>```
 ### Getting HTML Elements
 - To pick an element from the DOM use the following: 
-    - ```document.getElementByld(), document.getElementsByClassName(), document.querySelectorAll()```
+    - ```document.getElementById(), document.getElementsByClassName(), document.querySelectorAll()```
 ### Event Listeners
 - Allow you to run code on certain events such as a click, scroll, or keypress
 - Syntax: ```targe.addEventListener(type: String, listener: Function)```
