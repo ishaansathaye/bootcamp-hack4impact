@@ -64,4 +64,3 @@ myButton.addEventListener('click', (event))
 - ```npm unistall <package-name>```: remove packages
 - When using ```npm``` with Github, do not push your ```node_modules``` folder to Github
 - Good idea to run ```npm install``` after to ```git pull``` in case any new dependencies were added 
-
