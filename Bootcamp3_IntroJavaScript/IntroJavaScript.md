@@ -107,7 +107,7 @@ const addSeven = x -> x + 7;
 ```
 ### Using Functions as Values
 - find: returns first element where f(x) is true
-- findIndex: reuturns index of first element is true
+- findIndex: returns index of first element is true
 - map: returns a new array created by calling f(x) on each element in the original array
 - filter: returns a new array containing only the values where f(x) returns true
 ```javascript
