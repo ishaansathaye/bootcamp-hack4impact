@@ -87,5 +87,16 @@
     - Child is the inner layer
 ### What are Props?
 - Variables used inside React components that retrieve data passed from parents
-- passing props is similar to passing different inputs to a function
+- Passing props is similar to passing different inputs to a function
 - Parent component contains the child component, passing data to its props
+- Example:
+```jsx
+const cartElement = <ShoppingCart items=10 />
+
+function ShoppingCart(props) {
+    return <p>Number of items: (props.items) </p>
+}
+```
+### How are Props Useful?
+- Allow components to communicate with each other and retrieve data from outside sources
+- Reuse components multiple times with new data
