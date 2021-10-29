@@ -78,3 +78,14 @@
 - Class becomes className
 - ```onclick="doSomething" -> onClick={doSomething}```
 - Make sure react component names are capitalized
+---
+## Props
+- How Components Get Information
+### Parent and Child Components
+- Websites built using React usually ave a tree structure linking different components together
+- Parent components are the top of the tree
+    - Child is the inner layer
+### What are Props?
+- Variables used inside React components that retrieve data passed from parents
+- passing props is similar to passing different inputs to a function
+- Parent component contains the child component, passing data to its props
