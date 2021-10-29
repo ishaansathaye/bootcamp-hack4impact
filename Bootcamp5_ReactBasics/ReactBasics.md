@@ -72,7 +72,7 @@
     }
     ```
 ### Some Quirky React/JSX syntax
-- JSX has slightly different sytax than HTML
+- JSX has slightly different syntax than HTML
 - Images and css have to be imported
 - Images should be stored in the public folder
 - Class becomes className
