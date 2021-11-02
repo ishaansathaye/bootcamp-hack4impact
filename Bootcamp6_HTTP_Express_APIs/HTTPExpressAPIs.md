@@ -72,3 +72,24 @@ getAge();
 - Can chain multiple ```then``` statements together ```.then().then()```
 - To catch rejected promises chain a ```.catch()``` at the end
 - **Do not need the async/await keywords when using then**
+---
+## Connecting with your Own Server: EXPRESS
+### What is a Server?
+- Machine that serves the information requested by the client
+### What is Express?
+- A node Package, just like React
+- allows us to host a server on our computer and handle HTTP requests
+- We will use Express to build an API that connects our frontend (React) with our backend (MongoDB)
+### Setting up Express
+- Use the boilerplate code
+```js
+const express = require('express')
+const app = express()
+```
+- Call ```node <filename>```
+### Route Syntax
+```js
+app.get("/", (req, res) => {
+    res.send("Hello World");
+});
+```
