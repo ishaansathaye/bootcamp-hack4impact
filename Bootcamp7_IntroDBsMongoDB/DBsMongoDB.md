@@ -38,3 +38,54 @@ Can be a single document, a whole collection, or a query
 - Tool we use to test http requests without having to write fetch requests
 - Can use the desktop version, IDE extension, or website
 - Great for troubleshooting your sever code and visualizing data
+---
+### What is Mongoose?
+- Another node package
+- Gives us the functions needed to connect and interact without MongoDB database in our server
+- Use node to host our server
+- Helps us manage our data inside our code and when interacting with databases
+### Where does Mongoose fit in?
+- MongoDB - allows us to store data in the backend
+- Mongoose - allows our API routes to connect to MongoDB
+- Express - allows us to create API routes
+- Fetch - allows us to send requests to those API routes
+- React - allows us to display our website on the frontend
+### Connecting to our DB
+- Call ```mongoose.connect()``` in our Express sever
+- Connect accepts a url (from our mongoDB account) as a parameter
+- Connect is a async function
+```javascript
+cost url = <your url>;
+mongoose.connect(url),then(() => "Connected to MongoDB!");
+```
+### Schemas and Models
+- Collections are defined in Mongoose using schemas and models
+- **Schemas**: defines data fields and types (what our documebts will look like)
+- **Model**: Connects schema to Mongoose collection
+- Each schema and model group should typically get its own js file
+```javascript
+const mongoose = require("mongoose")
+const eventSchema = new mongoose.Schema({
+    name: Stirng,
+    topic: Sting,
+    date: Date,
+)};
+const Event = mongoose.model("Event", event Schema)
+```
+### CRUD in Mongoose - CREATE
+- Option 1: ```create()```
+    - Create and save in the same step
+### CRUD in Mongoose - READ
+- Zero or More: find()
+    - Query a collection for documents
+    - If query is empty, all documents in collection are returned 
+- Zero or One: ```findOne()``` or ```findByID()```
+    - ```findOne()``` uses same sytax as ```find()```, just only returns one
+    - ```findByID()``` only accepts ID as input
+### CRUD in Mongoose - UPDATE and DELETE
+- Update
+    - ```findByIdAndUpdate())```
+    - ```findOneAndUpdate()```
+- Delete
+    - ```findByIDAndDelete()```
+    - ```findOneAndDelete()```
