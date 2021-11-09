@@ -60,7 +60,7 @@ mongoose.connect(url),then(() => "Connected to MongoDB!");
 ```
 ### Schemas and Models
 - Collections are defined in Mongoose using schemas and models
-- **Schemas**: defines data fields and types (what our documebts will look like)
+- **Schemas**: defines data fields and types (what our documents will look like)
 - **Model**: Connects schema to Mongoose collection
 - Each schema and model group should typically get its own js file
 ```javascript
