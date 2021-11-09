@@ -7,7 +7,7 @@
 ### WHat is MongoDB?
 - NoSQL database that stores data in JSON documents
 - Will be using MongoDB Atlas, which is a database-as-a-service for MongoDB
-    - Do not have to worry about hosting the database, we can just connect to one hosted by a big compnay
+    - Do not have to worry about hosting the database, we can just connect to one hosted by a big company
 ### MOngoDB Structure
 - Data is stored in documents, which are grouped together into clusters
     - Documents: One JSON Object
