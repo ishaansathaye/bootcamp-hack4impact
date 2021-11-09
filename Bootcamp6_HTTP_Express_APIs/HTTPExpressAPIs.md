@@ -1,4 +1,4 @@
-## Bootcamp #5: HTTP, Express, and APIs
+## Bootcamp #6: HTTP, Express, and APIs
 ---
 ## HTTP
 ### What is HTTP?
