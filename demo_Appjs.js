@@ -19,7 +19,7 @@ function App() {
       Hello World
       <button onClick={(() => setNumber(number + 1))}> Click me!</button>
       <h4> Ive been clicked {number} times</h4>
-      {people ? (
+      {people ? ( //conditional
 	        people.map(person => 
 	          <p> {person.first_name} {person.last_name} </p>
 					)
