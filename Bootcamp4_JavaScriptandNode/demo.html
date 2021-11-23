@@ -1,0 +1,45 @@
+<html lang="en-US">
+  <head>
+    <title> Demo Website </title>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <style>
+    #blue-text { color: blue; }
+    #mouse-location { border: 2px solid black; height: 50px; }
+  </style>
+  <body>
+    <main>
+      <h1>We will add javascript to this site to spice it up!</h1>
+      <hr >
+
+      <!--add onclick-->
+      <p id="blue-text">I am some sample text </p>
+      <button onclick="changeColor()">I am a button</button>
+      <br /> <br /> <br /> 
+      <hr />
+
+      <!--add onmouseover and onmouseleave-->
+      <br /> 
+      <div 
+        onmouseover="changeText()"
+        onmouseleave="resetText()"
+        id="mouse-location">
+        Cursor is not inside this div
+      </div>
+      <br /> 
+      <hr />
+
+      <br />
+      <label>Ingredients: </label>
+      <ul id="ingredients">
+        <li>Tomatoes</li>
+        <li>Mushrooms</li>
+        <li>Shrimp</li>
+      </ul>
+
+      <label> Add ingredient</label> <br />
+      <input id="newIngredient" placeholder="I am an input" value=""/>
+      <button onclick="addIngredient()">Add ingredient to list</button>  <!--add onclick-->
+    </main>
+  </body>
+</html>
