@@ -74,7 +74,7 @@ setIngredients([...ingredients. "apple"]);
         ```
 ### Lifecycle Functions
 - Class Components: mount = render, unmount = stop rendering
-- ```useEffect()``` hook tells REact that component needs to do something after render
+- ```useEffect()``` hook tells React that component needs to do something after render
     - handles code that has side effects
 - ```useEffect()``` is where we will be making GET fetch requests
 - **useEffect Syntax: {code}, [dependencies]**
@@ -99,12 +99,34 @@ useEffect(() => {
     getIngredients();
 }, []);
 ```
-
-
-
-
-
-
-
-
-
+### React Router
+- Why need React Router?
+    - Because react is a single-page application
+    - Components are not complete html pages -> so cannot change components the same way we change pages
+- Use node package react-router (using v6 syntax)
+#### The Route Component
+- Most react router  code goes inside ```App.js```
+    - where you choose which urls route to which components
+    ```js
+    <Route path="/about" element={<About />}/>
+    ```
+    - path: the url the route should match
+    - element: the component that should display at that route
+#### Linking Pages
+- No longer use ```<a>``` tags to navigate a site
+- Use the ```<Link>``` tags:
+```js
+<Link to="/about">About</Link>
+```
+#### URL Parameters
+- Common way to communicate data across pages 
+```js
+<Route path='recipe/:name' element={<Recipe />} />
+```
+- Router will match any word after the colon: ``/recipe/pasta```
+- Can get the url parameter in the recipe component with the ```useParams``` hook
+    - Can fetch data from the backend using unique id, ame, or url-slug
+    ```js
+    let param = useParams(0);
+    console.log(param.name);
+    ```
