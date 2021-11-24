@@ -5,7 +5,7 @@
 - [Developer Bootcamp Notion](https://www.notion.so/Developer-Bootcamp-2021-7c97523fb0814ac39e5706b0795abda8)
 ---
 ## Bootcamp Meetings
-- **HTML and CSS:** Thursday October 14, 2021
+- [**HTML and CSS:**](Bootcamp1_CSSandHTML) Thursday October 14, 2021
     - [Slides](https://docs.google.com/presentation/d/1yANWC8xekfMSgypqI13XzhuB9YBs6xuN2IgsxIS2RnU/edit?usp=sharing)
     - [Video](https://youtu.be/Xe6RmExp4N0)
 - **Box Model and Git:** Monday October 18, 2021
